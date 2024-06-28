@@ -1,0 +1,144 @@
+body{
+    font-family: "Arernir Next";
+}
+
+header{
+    height: 100px;
+    background-color:aquamarine;
+}
+.header-logo{
+    float: left;
+    font-size: 50px;
+    padding: 20px 200px 20px 30px;
+}
+.header-list li{
+    list-style: none;
+    float: left;
+    padding: 30px 25px;
+    font-size: 30px;
+}
+
+
+.main{
+    height: auto;
+    background-color: beige;
+}
+.main-title h1{
+    text-align: center;
+    font-size: 70px;
+}
+.main-title h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.main-first p{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.record{
+    height: 300px;
+    width: 40%;
+    padding: 0 0 0 10%;
+}
+.rate{
+    height: 300px;
+    width: 35%;
+    padding: 0 5% 0 0;
+}
+.ahokusa-short{
+    display: block;
+    margin: 0 auto;
+}
+
+.main-second p{
+    text-align: center;
+    font-size: 30px;
+}
+.record2{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.ahokusa-long{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.kanma{
+    list-style: none;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+
+
+footer{
+    background-color: rgb(27, 158, 71);
+    color: azure;
+    height: 120px;
+}
+.footer-logo{
+    font-size: 40px;
+    float: left;
+    font-weight: bold;
+    padding: 40px 200px 40px 40px;
+}
+.footer-list a{
+    list-style: none;
+    float: right;
+    margin: 20px 80px 0 0;
+    font-size: 25px;
+}
+.footer-list p{
+    float: right;
+    font-size: 20px;
+    padding: 5px 90px 10px 0;
+}
+
+.fa-bluesky{
+    color: aqua;
+}
+.fa-youtube{
+    color: red;
+}
+
+
+
+/*memo button.cssのmainのやつだけど多分もういらない*/
+
+.top-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 600px;
+    width: 100%; /* ブラウザの幅いっぱいに広げる */
+}
+
+.container {
+    width: 95%; /* 最大幅を1200pxに設定 */
+    margin: 0 auto; /* 中央寄せ */
+    display: flex;
+    justify-content: space-between;/*?*/
+}
+
+.house-introduce, .cat-introduce, .cat-introduce2 {
+    /*flex: 1;*/
+    text-align: center;
+    padding: 10px;
+    display: flex;/*?*/
+    flex-direction: column;
+    align-items: center;
+}
+
+.house-introduce img, .cat-introduce img, .cat-introduce2 img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    object-fit: contain;
+}
