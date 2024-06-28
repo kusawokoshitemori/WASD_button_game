@@ -102,3 +102,26 @@ footer {
   font-size: 25px;
   margin: 0;
 }
+
+/*ここからmainの要素*/
+
+.main-circle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px; /* 適切な高さを設定してください */
+}
+
+.circle {
+  width: 100px; /* 円の直径 */
+  height: 100px; /* 円の直径 */
+  background-color: #ccc;
+  border-radius: 50%; /* 円を描画するためのボーダーラジアス */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  font-size: 24px; /* テキストのフォントサイズ */
+}
