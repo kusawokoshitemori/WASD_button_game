@@ -42,9 +42,16 @@ header {
   border-radius: 5px;
 }
 
+.main {
+  display: flex;
+}
+
+.wasd {
+  margin-right: 20px;
+}
+
 #score {
   font-size: 24px;
-  margin-bottom: 20px;
 }
 
 footer {
