@@ -134,8 +134,3 @@ footer {
 .key {
   font-size: 100px;
 }
-
-/*JS使ってみる*/
-.A-Key-Display {
-  color: red; /* 初期は赤色にしない */
-}
